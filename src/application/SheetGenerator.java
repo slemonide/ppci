@@ -14,7 +14,7 @@ public class SheetGenerator {
 
         for (int y = 0; y < 255; y ++) {
             for (int x = 0; x < 255; x ++) {
-                graphics.setPaint(new Color(x, y, 255));
+                graphics.setPaint(new Color(x, y, 0));
                 graphics.drawRect(x, y, x, y);
             }
         }
