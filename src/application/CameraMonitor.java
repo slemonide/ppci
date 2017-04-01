@@ -7,7 +7,7 @@ import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 
-public class CamaraMonitor {
+public class CameraMonitor {
     public static void main(String[] args) {
         Webcam webcam = Webcam.getDefault();
         webcam.setViewSize(new Dimension(640, 480));
